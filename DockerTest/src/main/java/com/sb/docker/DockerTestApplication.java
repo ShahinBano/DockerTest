@@ -8,6 +8,7 @@ public class DockerTestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DockerTestApplication.class, args);
+		System.out.println("Shahin is working on Git");
 	}
 
 }
