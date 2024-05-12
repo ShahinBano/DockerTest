@@ -38,10 +38,12 @@ public class UserController {
 		
 		employee.add(new Employee(101,"Subhash","IT",24000.00,address));
 		employee.add(new Employee(102,"Sanjeev","HR",29000.00,address1));
-		
+		employee.add(new Employee(103,"Shahin","SE",900.00,address1));
 		Map<String,List<Employee>> map=new HashMap<>();
 		
 		map.put("Employee", employee);
 		return map;
 	}
+	
+	
 }
